@@ -4,6 +4,7 @@ pipeline {
     stage('Check out') {
       steps {
         git 'https://github.com/Ahmed313506/Test-new'
+        git 'https://github.com/Ahmed313506/Test-new'
       }
     }
 
