@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Check out') {
       steps {
-        git(url: 'https://github.com/Ahmed313506/Test-new', branch: 'jknk')
+        git 'https://github.com/Ahmed313506/Test-new'
       }
     }
 
