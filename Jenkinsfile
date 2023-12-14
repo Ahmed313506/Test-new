@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Check out') {
+    stage('Gitt') {
       steps {
-        git 'https://github.com/Ahmed313506/Test-new'
-        git 'https://github.com/Ahmed313506/Test-new'
+        git(url: 'https://github.com/Ahmed313506/Test-new', branch: 'develop')
       }
     }
 
